@@ -1,15 +1,25 @@
 #include<iostream>
-#include "libgen.h"
 using namespace std;
+#include "lib.h"
+int main () {
 
-int main(){
-    int x=0;
-    cin >> x;
-    if (x==1){
-        cout << "numero primo" << endl;
+bool primo(int num) {
+
+    if (num < 1){
+        return false;
+    }else if (num == 2, num == 1) {
+        return true;
     }
-    else {
-        cout << "numero non primo" << endl;
+    bool primo (int x) {
+        for (int i = 2; i < x; i++) {
+            if (x % i == 0) {
+
+                for (int i = 2; i < num; i++)
+                    if (num % i == 0) {
+                        return false;
+                    }
+            }
+            return true;
+        }
+        return 0;
     }
-    return 0;
-}
