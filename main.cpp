@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n = 0, i = 2;
     cin >> n;
-    if(numprimo(n, i) == true){
+    if(numeroprimo(n, i) == true){
         cout << "numero primo";
     }
     else{
