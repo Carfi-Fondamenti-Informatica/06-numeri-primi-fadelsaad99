@@ -1,4 +1,4 @@
-#include "lib.cpp"
+#include "lib.h"
 bool numprimo(int n, int i){
     if(n % i == 0){
         if(n == i){
