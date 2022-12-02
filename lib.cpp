@@ -1,12 +1,12 @@
 #include "lib.h"
-bool numprimo(int x, int k){
-    if(x % k == 0){
-        if(x == k){
+bool numprimo(int n, int i){
+    if(n % i == 0){
+        if(n == i){
             return true;
         }
         else{
             return false;
         }
     }
-    numprimo(x, k + 1);
+    numprimo(n, i + 1);
 }
