@@ -1,12 +1,12 @@
 #include "lib.h"
-bool numeroprimo(int n, int i){
-    if(n % i == 0){
-        if(n == i){
+bool numeroprimo(int x, int k){
+    if(x % k == 0){
+        if(x == k){
             return true;
         }
         else{
             return false;
         }
     }
-    numeroprimo(n, i + 1);
+    numeroprimo(x, k + 1);
 }
