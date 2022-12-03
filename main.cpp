@@ -2,9 +2,9 @@
 #include "lib.h"
 using namespace std;
 int main(){
-    int a = 0, b = 2;
-    cin >> a;
-    if(numprimo(a, b) == true){
+    int x = 0, y = 2;
+    cin >> x;
+    if(numeroprimo(x, y) == true){
         cout << "numero primo";
     }
     else{
